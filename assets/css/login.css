@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.fondo_login {
+    position: absolute;
+    background-size: cover;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+
+    box-shadow: inset -250px 4px 250px #000000;
+}
+
+.logo_login{
+    position: absolute;
+    width: 200px;
+    height: 167.9px;
+    left: 69%;
+    top: 10%;
+}
+
+.titulo_login{
+    position: absolute;
+    width: 354px;
+    height: 90px;
+    left: 64%;
+    top: 27%;
+
+    font-family: 'Krub', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.input_usuario{
+    position: absolute;
+    width: 336px;
+    height: 53px;
+    left: 64%;
+    top: 45%;
+
+    background: #FFFFFF;
+    border: 1px solid #837F7F;
+    box-sizing: border-box;
+    border-radius: 26px;
+    font-family: 'Krub', sans-serif;
+
+    margin-top: 20px;
+    padding-left: 2rem;
+}
+
+.input_clave{
+    position: absolute;
+    width: 336px;
+    height: 53px;
+    left: 64%;
+    top: 55%;
+
+    background: #FFFFFF;
+    border: 1px solid #837F7F;
+    box-sizing: border-box;
+    border-radius: 26px;
+    font-family: 'Krub', sans-serif;
+
+    margin-top: 20px;
+    padding-left: 2rem;
+}
+
+.btn_ingresar{
+    position: absolute;
+    width: 336px;
+    height: 54px;
+    left: 64%;
+    top: 65%;
+    border: none;
+    background: #6FBD44;
+    border-radius: 26px;
+    font-family: 'Krub', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 27px;
+    line-height: 27px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn_ingresar:hover{
+    background: #66b33d;
+}
+
+.nuevo_usuario_login{
+    position: absolute;
+    width: 207px;
+    height: 26px;
+    left: 65%;
+    top: 75%;
+    font-family: 'Krub', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.registrese_login{
+    position: absolute;
+    width: 104px;
+    height: 26px;
+    left: 80%;
+    top: 80%;
+    font-family: 'Krub', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #28AAE1;
+    cursor: pointer;
+}
+
+@media (min-width: 900px) {
+    /*falta :V*/
+}
